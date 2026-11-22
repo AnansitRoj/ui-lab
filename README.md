@@ -8,6 +8,6 @@ Robot Framework tests with SeleniumLibrary for the Selenium web form and for tes
     robot pizza_scenario.robot
 
 ## cypress/
-Cypress tests for the Selenium web form and for test case QP-01 on QuickPizza. Run the tests from the cypress folder:
+Cypress tests for the Selenium web form and for test case QP-01 on QuickPizza. Run the tests from the cypress folder using Chrome:
 
-    npx cypress run
+    npx cypress run --browser chrome
